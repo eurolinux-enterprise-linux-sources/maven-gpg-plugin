@@ -1,6 +1,6 @@
 Name:           maven-gpg-plugin
 Version:        1.4
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Maven GPG Plugin
 
 Group:          Development/Libraries
@@ -63,6 +63,9 @@ sed -i 's/${mavenVersion}/3.0.4/' pom.xml
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-11
+- Mass rebuild 2013-12-27
+
 * Wed Jul 17 2013 Tomas Radej <tradej@redhat.com> - 1.4-10
 - Added R on gnupg (used for actual singing)
 
